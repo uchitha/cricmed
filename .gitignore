@@ -1,0 +1,9 @@
+*.suo
+*.user
+bin
+obj
+/Presentation/Nop.Web/Plugins/
+/Presentation/Nop.Web/Content/Images/uploaded/
+/Presentation/Nop.Web/Content/Images/Thumbs/
+/Presentation/Nop.Web/App_Data/Settings.txt
+/Presentation/Nop.Web/App_Data/InstalledPlugins.txt
