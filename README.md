@@ -1,2 +1,0 @@
-# medcric
-Project for Prasanna
