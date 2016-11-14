@@ -12171,8 +12171,65 @@
   <LocaleResource Name="Filtering.SpecificationFilter.Remove">
     <Value>Remove Filter</Value>
   </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub">
+    <Value>Knowledge Hub</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.Performance">
+    <Value>Performance</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.Biomechanics">
+    <Value>Biomechanics</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.Coaching">
+    <Value>Coaching</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.Nutrition">
+    <Value>Nutrition</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.Injuries">
+    <Value>Injuries</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.KnowledgeHub.InjuryPrevention">
+    <Value>Injury Prevention</Value>
+  </LocaleResource>  
+  <LocaleResource Name="Footer.Research">
+    <Value>Research</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.SriLanka">
+    <Value>Sri Lanka</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.Australia">
+    <Value>Australia</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.England">
+    <Value>England</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.India">
+    <Value>India</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.Pakistan">
+    <Value>Pakistan</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.SouthAfrica">
+    <Value>South Africa</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.NewZealand">
+    <Value>New Zealand</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.WestIndies">
+    <Value>West Indies</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Research.Bangladesh">
+    <Value>Bangladesh</Value>
+  </LocaleResource><LocaleResource Name="Footer.Resource">
+    <Value>Resource</Value>
+  </LocaleResource>
+  <LocaleResource Name="Footer.Forum">
+    <Value>Forum</Value>
+  </LocaleResource>
+
   <LocaleResource Name="Footer.CustomerService">
-    <Value>Customer service</Value>
+    <Value>Customer service 2</Value>
   </LocaleResource>
   <LocaleResource Name="Footer.FollowUs">
     <Value>Follow us</Value>

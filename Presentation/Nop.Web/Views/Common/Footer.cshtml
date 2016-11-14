@@ -12,21 +12,31 @@
             <ul class="list">
                 @if (Model.SitemapEnabled)
                 {
-                    <li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>
+                    @*<li><a href="@Url.RouteUrl("Sitemap")">@T("Sitemap")</a></li>*@
+                    <li><a href="#">Home</a></li>
                 }
-                @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn1).ToList())
+                @*@foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn1).ToList())
                 {
                     <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
-                }
+                }*@
+                <li><a href="#">About Us</a></li>
                 <li><a href="@Url.RouteUrl("ContactUs")">@T("ContactUs")</a></li>
             </ul>
         </div>
         <div class="footer-block customer-service">
             <div class="title">
-                <strong>@T("Footer.CustomerService")</strong>
+                @*<strong>@T("Footer.CustomerService")</strong>*@
+                <strong>Knowledge Hub</strong>
             </div>
             <ul class="list">
-                <li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
+                <li><a href="#">Performance</a> </li>
+                <li><a href="#">Biomechanics</a> </li>
+                <li><a href="#">Coaching</a> </li>
+                <li><a href="#">Nutrition</a> </li>
+                <li><a href="#">Injuries</a> </li>
+                <li><a href="#">InjuryPrevention</a> </li>
+
+                @*<li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
                 @if (Model.NewsEnabled)
                 {
                     <li><a href="@Url.RouteUrl("NewsArchive")">@T("News")</a></li>
@@ -54,15 +64,26 @@
                 @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn2).ToList())
                 {
                     <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
-                }
+                }*@
             </ul>
         </div>
         <div class="footer-block my-account">
             <div class="title">
-                <strong>@T("Footer.MyAccount")</strong>
+                @*<strong>@T("Footer.MyAccount")</strong>*@
+                <strong>Research</strong>
             </div>
             <ul class="list">
-                <li><a href="@Url.RouteUrl("CustomerInfo")">@T("Account.MyAccount")</a></li>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">SriLanka</a></li>
+                <li><a href="#">England</a></li>
+                <li><a href="#">SouthAfrica</a></li>
+                <li><a href="#">India</a></li>
+                <li><a href="#">Pakistan</a></li>
+                <li><a href="#">WestIndies</a></li>
+                <li><a href="#">NewZealand</a></li>
+                <li><a href="#">Bangladesh</a></li>
+
+                @*<li><a href="@Url.RouteUrl("CustomerInfo")">@T("Account.MyAccount")</a></li>
                 <li><a href="@Url.RouteUrl("CustomerOrders")">@T("Account.CustomerOrders")</a></li>
                 <li><a href="@Url.RouteUrl("CustomerAddresses")">@T("Account.CustomerAddresses")</a></li>
                 @if (Model.ShoppingCartEnabled)
@@ -80,9 +101,21 @@
                 @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn3).ToList())
                 {
                     <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
-                }
+                }*@
             </ul>
         </div>
+        <div class="footer-block follow-us">
+            <div class="title">
+                @*<strong>@T("Footer.MyAccount")</strong>*@
+                <strong>Resource</strong>
+            </div>
+        </div>
+        @*<div class="footer-block follow-us">
+            <div class="title">
+                @*<strong>@T("Footer.MyAccount")</strong>
+                <hr/>
+            </div>
+        </div>*@
         <div class="footer-block follow-us">
             <div class="social">
                 <div class="title">
@@ -111,7 +144,7 @@
                     }
                 </ul>
             </div>
-            @Html.Action("NewsletterBox", "Newsletter")
+            @*@Html.Action("NewsletterBox", "Newsletter")*@
         </div>
     </div>
     <div class="footer-lower">
@@ -130,7 +163,8 @@
             <div class="footer-powered-by">
                 @*Would you like to remove the "Powered by nopCommerce" link in the bottom of the footer?
                     Find more info at http://www.nopcommerce.com/copyrightremoval.aspx*@
-                Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>
+                @*Powered by <a href="http://www.nopcommerce.com/">nopCommerce</a>*@
+                Powered by <a href="http://www.cricmed.com/">CricMed IT</a>
             </div>
         }
         @Html.Action("StoreThemeSelector", "Common")
