@@ -2059,7 +2059,6 @@
     <Content Include="Views\Catalog\_CatalogSelectors.cshtml" />
     <Content Include="Views\Vendor\ApplyVendor.cshtml" />
     <Content Include="Views\Product\_Discontinued.cshtml" />
-    <Content Include="Views\Product\ProductTemplate.ResearchItem.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\Roxy_Fileman\tmp\" />
