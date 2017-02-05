@@ -408,9 +408,6 @@
     <Compile Include="Validators\Common\ContactUsValidator.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\InstalledPlugins.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="App_Data\Install\create_required_data.sql" />
     <Content Include="App_Data\Install\create_sample_data.sql" />
     <Content Include="App_Data\Localization\Installation\installation.ar.xml" />
@@ -453,9 +450,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_Data\Install\SqlServer.Indexes.sql" />
-    <Content Include="App_Data\Settings.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="App_Data\Settings.txt" />
     <Content Include="Content\BBEditor\ed.js" />
     <Content Include="Content\BBEditor\images\bold.gif" />
     <Content Include="Content\BBEditor\images\code.gif" />
@@ -495,17 +490,6 @@
     <Content Include="Content\files\ExportImport\Index.htm" />
     <Content Include="Content\files\Index.htm" />
     <Content Include="Content\Images\default-image.png" />
-    <Content Include="Content\Images\Thumbs\0000077.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000079.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000080_knowledge-hub.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000080_knowledge-hub_450.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000082_research.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000082_research_450.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000083_resource.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000083_resource_450.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000088_research-item-2.jpeg" />
-    <Content Include="Content\Images\Thumbs\0000088_research-item-2_415.jpeg" />
-    <Content Include="Content\Images\uploaded\placeholder.txt" />
     <Content Include="Content\kendo\2014.1.318\Black\editor.png" />
     <Content Include="Content\kendo\2014.1.318\Black\imagebrowser.png" />
     <Content Include="Content\kendo\2014.1.318\Black\indeterminate.gif" />
@@ -1166,10 +1150,12 @@
     <Content Include="Content\Roxy_Fileman\lang\it.json" />
     <Content Include="Content\Roxy_Fileman\lang\pl.json" />
     <Content Include="Content\Roxy_Fileman\lang\pt.json" />
-    <Content Include="Properties\PublishProfiles\cricmed.PublishSettings" />
     <None Include="Properties\PublishProfiles\cricmed.pubxml" />
-    <Content Include="Properties\PublishProfiles\medcric.PublishSettings" />
-    <None Include="Properties\PublishProfiles\medcric-new.pubxml" />
+    <None Include="Properties\PublishProfiles\medcric %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\medcric %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\medcric %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\medcric %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\medcric.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fineuploader\iframe.xss.response-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.js" />
@@ -1697,7 +1683,6 @@
     <Content Include="Themes\DefaultClean\Content\images\last.png" />
     <Content Include="Themes\DefaultClean\Content\images\loading.gif" />
     <Content Include="Themes\DefaultClean\Content\images\logo.png" />
-    <Content Include="Themes\DefaultClean\Content\images\logo_nop.png" />
     <Content Include="Themes\DefaultClean\Content\images\menu-icon.png" />
     <Content Include="Themes\DefaultClean\Content\images\move.png" />
     <Content Include="Themes\DefaultClean\Content\images\new.png" />
@@ -1976,6 +1961,7 @@
     <Content Include="Content\Images\flags\zw.png" />
     <Content Include="Content\Images\default-image.gif" />
     <Content Include="Content\install\images\install-synchronizing.gif" />
+    <Content Include="Content\Images\uploaded\placeholder.txt" />
     <Content Include="Content\install\images\bg.gif" />
     <Content Include="Content\install\images\bodybg.gif" />
     <Content Include="Content\install\images\bottom.gif" />
@@ -1988,6 +1974,7 @@
     <Content Include="Content\install\images\topright.gif" />
     <Content Include="Content\install\style.css" />
     <Content Include="Content\install\style.rtl.css" />
+    <Content Include="Content\Images\Thumbs\placeholder.txt" />
     <Content Include="ErrorPage.htm" />
     <Content Include="FileNotFound.htm" />
     <Content Include="Global.asax" />
