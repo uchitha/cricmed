@@ -2,7 +2,7 @@
 @using Nop.Web.Models.Catalog;
 @using (Html.BeginRouteForm("ProductSearch", FormMethod.Get, new { id = "small-search-box-form" }))
 {
-    <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="@T("Search.SearchBox.Tooltip")" />
+    <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="Search Site" /> @*@T("Search.SearchBox.Tooltip")*@
     @Html.Widget("searchbox_before_search_button")
     <input type="submit" class="button-1 search-box-button" value="@T("Search.Button")" />
     if (Model.SearchTermMinimumLength > 0)
