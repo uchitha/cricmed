@@ -1,2 +1,2 @@
 DataProvider: sqlserver
-DataConnectionString: Data Source=tcp:tnu.database.windows.net,1433;Initial Catalog=medcric_db_bkup;User ID=tnu@tnu;Password=Carp147995
+DataConnectionString: Data Source=tcp:tnu.database.windows.net,1433;Initial Catalog=medcric_db;User ID=tnu@tnu;Password=Carp147995

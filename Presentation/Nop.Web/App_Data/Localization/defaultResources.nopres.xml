@@ -4723,7 +4723,7 @@
     <Value>Check to allow customers to use the 'Recently viewed products' feature in your store</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsNumber">
-    <Value>Number of 'Recently viewed products'</Value>
+    <Value>Number of 'Recently viewed'</Value>
   </LocaleResource>
   <LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsNumber.Hint">
     <Value>The number of 'Recently viewed products' to display when 'Recently viewed products' option is enabled.</Value>
@@ -12166,7 +12166,7 @@
     <Value>Filter by attributes</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter.CurrentlyFilteredBy">
-    <Value>Currently shopping by:</Value>
+    <Value>Currently filtered by:</Value>
   </LocaleResource>
   <LocaleResource Name="Filtering.SpecificationFilter.Remove">
     <Value>Remove Filter</Value>
@@ -13060,7 +13060,7 @@
     <Value>Profile</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.RecentlyViewedProducts">
-    <Value>Recently Viewed Products</Value>
+    <Value>Recently Viewed</Value>
   </LocaleResource>
   <LocaleResource Name="PageTitle.Register">
     <Value>Register</Value>
@@ -13774,7 +13774,7 @@
     <Value>Qty</Value>
   </LocaleResource>
   <LocaleResource Name="Products.RecentlyViewedProducts">
-    <Value>Recently viewed products</Value>
+    <Value>Recently viewed</Value>
   </LocaleResource>
   <LocaleResource Name="Products.RelatedProducts">
     <Value>Related products</Value>
