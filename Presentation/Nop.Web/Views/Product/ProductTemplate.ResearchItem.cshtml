@@ -69,16 +69,18 @@
                                 @Model.Name
                             </h1>
                         </div>
-                        @if (!String.IsNullOrEmpty(Model.ShortDescription))
+                        @*@if (!String.IsNullOrEmpty(Model.ShortDescription))
                         {
                             <div class="short-description">
                                 @Html.Raw(Model.ShortDescription)
                             </div>
-                        }
+                        }*@
                         
+                        @Html.Partial("_PaperDetails", Model.ProductSpecifications)
+
                         @if (!String.IsNullOrEmpty(Model.FullDescription))
                         {
-                            <strong>Abstract</strong>
+                            <h3>Abstract</h3>
                             <div class="full-description" itemprop="description">
                                 @Html.Raw(Model.FullDescription)
                             </div>
@@ -146,7 +148,7 @@
                 </div>
                 @Html.Widget("productdetails_before_collateral", Model.Id)
                 <div class="product-collateral">
-                    @Html.Partial("_ProductSpecifications", Model.ProductSpecifications)
+                    @*@Html.Partial("_ProductSpecifications", Model.ProductSpecifications)*@
                     @Html.Partial("_ProductTags", Model.ProductTags)
                 </div>
                 @Html.Action("ProductsAlsoPurchased", "Product", new { productId = Model.Id })

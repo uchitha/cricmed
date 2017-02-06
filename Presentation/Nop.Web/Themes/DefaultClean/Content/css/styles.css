@@ -6163,14 +6163,14 @@ pre {
 
 .gallery {
 	float: left;
-	width: 46%;
+	width: 30%;
 }
 .gallery .picture {
 	width: auto;
 }
 .overview {
 	float: right;
-	width: 52%;
+	width: 65%;
 }
 .rental-attributes {
 	overflow: hidden;
