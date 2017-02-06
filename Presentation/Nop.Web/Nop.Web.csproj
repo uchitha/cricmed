@@ -1151,11 +1151,6 @@
     <Content Include="Content\Roxy_Fileman\lang\pl.json" />
     <Content Include="Content\Roxy_Fileman\lang\pt.json" />
     <None Include="Properties\PublishProfiles\cricmed.pubxml" />
-    <None Include="Properties\PublishProfiles\medcric %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\medcric %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\medcric %284%29.pubxml" />
-    <None Include="Properties\PublishProfiles\medcric %285%29.pubxml" />
-    <None Include="Properties\PublishProfiles\medcric.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\fineuploader\iframe.xss.response-4.2.2.js" />
     <Content Include="Scripts\fineuploader\jquery.fineuploader-4.2.2.js" />
