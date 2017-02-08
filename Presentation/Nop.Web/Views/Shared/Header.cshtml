@@ -6,6 +6,7 @@
     //logo path
     var currentThemeName = EngineContext.Current.Resolve<IThemeContext>().WorkingThemeName;
     var logoPath = "~/Themes/" + currentThemeName + "/Content/images/logo-cricketscholar.png";
+    var mottoPath = "~/Themes/" + currentThemeName + "/Content/images/motto-cricketscholar-color.png";
 
     //store name
     var storeName = EngineContext.Current.Resolve<IStoreContext>().CurrentStore.GetLocalized(x => x.Name);
@@ -27,9 +28,12 @@
         </div>
     </div>
     <div class="header-lower">
-        <div class="header-logo">
+        <div class="header-logo" style="width: 68%">
             <a href="@Url.RouteUrl("HomePage")">
                 <img title="" alt="@storeName" src="@Url.Content(logoPath)">
+            </a>
+            <a style="padding-left: 20px" href="#">
+                <img title="" alt="Science & Medicine of Cricket" src="@Url.Content(mottoPath)">
             </a>
         </div>
         <div class="search-box store-search-box">

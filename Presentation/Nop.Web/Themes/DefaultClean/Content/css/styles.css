@@ -5927,6 +5927,12 @@ pre {
 	vertical-align: middle;
 	font-size: 0;
 }
+.header-motto {
+	display: table-cell;
+	text-align: left;
+	vertical-align: middle;
+	font-size: 0;
+}
 .search-box {
 	display: table-cell;
 	text-align: right;
