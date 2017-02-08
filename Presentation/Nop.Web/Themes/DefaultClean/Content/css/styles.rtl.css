@@ -746,7 +746,7 @@ label, label + * {
 .header-lower {
 	position: relative;
 	z-index: 0;
-	padding: 35px 0;
+	padding: 15px 0;
 }
 
 .header-logo {
