@@ -57,7 +57,7 @@
                                     @Html.LabelFor(model => model.isc)
                                 </div>
                             }
-                            @if (Model.AvailableManufacturers.Count > 0)
+                            @*@if (Model.AvailableManufacturers.Count > 0)
                             {
                                 <div class="inputs">
                                     @Html.LabelFor(model => model.mid, new { }, ":")
@@ -72,7 +72,7 @@
                                     @T("Search.PriceRange.To")
                                     @Html.TextBoxFor(model => model.pt, new { @class = "price-to" })
                                 </span>
-                            </div>
+                            </div>*@
                             <div class="inputs reversed">
                                 @Html.CheckBoxFor(model => model.sid)
                                 @Html.LabelFor(model => model.sid)
