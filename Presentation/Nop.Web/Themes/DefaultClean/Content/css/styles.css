@@ -745,7 +745,7 @@ label, label + * {
 .header-lower {
 	position: relative;
 	z-index: 0;
-	padding: 35px 0;
+	padding: 15px 0;
 }
 
 .header-logo {
@@ -5954,7 +5954,7 @@ pre {
 	margin: 0 auto 30px;
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
-	padding: 25px 0;
+	padding: 10px 0 15px 0;
 	text-align: center;
 }
 .menu-toggle,
@@ -5996,7 +5996,7 @@ pre {
 	max-width: 320px;
 	box-shadow: 0 0 2px rgba(0,0,0,0.2);
 	background-color: #fff;
-	padding: 10px 0;
+	padding: 10px 0px 20px;
 	text-align: left;
 }
 .header-menu .sublist li {
