@@ -5987,7 +5987,7 @@ pre {
 .header-menu .sublist {
 	display: none;
 	position: absolute;
-	width: 200px;
+	max-width: 320px;
 	box-shadow: 0 0 2px rgba(0,0,0,0.2);
 	background-color: #fff;
 	padding: 10px 0;
@@ -5999,7 +5999,7 @@ pre {
 .header-menu .sublist li a {
 	display: block;
 	position: relative;
-	padding: 10px 20px 10px 30px;
+	padding: 6px 20px 6px 30px;
 	font-size: 14px;
 	color: #444;
 }
