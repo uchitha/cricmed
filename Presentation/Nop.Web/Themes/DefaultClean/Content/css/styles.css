@@ -120,6 +120,7 @@ input[type="button"], input[type="submit"],
 button, .button-1, .button-2 {
 	cursor: pointer;
 }
+
 label, label + * {
 	vertical-align: middle;
 }
@@ -751,6 +752,7 @@ label, label + * {
 .header-logo {
 	margin: 0 0 20px;
 	text-align: center;
+    display: inline-block;
 }
 .header-logo a {
 	display: inline-block;
@@ -773,13 +775,13 @@ label, label + * {
 .search-box input.search-box-text {
 	float: left;
 	width: 200px;
-	height: 36px;
+	height: 30px;
 	margin: 0 -1px 0 0;
 }
 .search-box .search-box-button {
 	float: left;
-	min-width: 86px;
-	height: 36px;
+	min-width: 30px;
+	height: 30px;
 	border: none;
 	background-color: #4ab2f1;
 	padding: 0 15px;
@@ -5009,10 +5011,10 @@ pre {
     margin: 10px auto;
 }
 .search-box input.search-box-text {
-	width: 280px;
+	width: 240px;
 }
 .ui-autocomplete {
-	width: 280px !important;
+	width: 240px !important;
 }
 .ui-autocomplete img {
 	display: inline;
@@ -5940,7 +5942,7 @@ pre {
 }
 .search-box input.search-box-text,
 .search-box .search-box-button {
-	height: 40px;
+	height: 30px;
 }
 
 

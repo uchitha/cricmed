@@ -4,7 +4,8 @@
 {
     <input type="text" class="search-box-text" id="small-searchterms" autocomplete="off" name="q" placeholder="Search Site" /> @*@T("Search.SearchBox.Tooltip")*@
     @Html.Widget("searchbox_before_search_button")
-    <input type="submit" class="button-1 search-box-button" value="@T("Search.Button")" />
+    @*<input type="submit" class="button-1 search-box-button" value="@T("Search.Button")" />*@
+    <input type="submit" class="button-1 search-box-button" value="" style="width: 30px;height: 30px;background-image: url(content/images/lens.png);background-repeat: no-repeat;background-position: center;" />
     if (Model.SearchTermMinimumLength > 0)
     {
         <script type="text/javascript">

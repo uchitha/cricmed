@@ -490,6 +490,7 @@
     <Content Include="Content\files\ExportImport\Index.htm" />
     <Content Include="Content\files\Index.htm" />
     <Content Include="Content\Images\default-image.png" />
+    <Content Include="Content\Images\lens.png" />
     <Content Include="Content\kendo\2014.1.318\Black\editor.png" />
     <Content Include="Content\kendo\2014.1.318\Black\imagebrowser.png" />
     <Content Include="Content\kendo\2014.1.318\Black\indeterminate.gif" />
@@ -1680,6 +1681,9 @@
     <Content Include="Themes\DefaultClean\Content\images\logo-cricketscholar.png" />
     <Content Include="Themes\DefaultClean\Content\images\logo.png" />
     <Content Include="Themes\DefaultClean\Content\images\menu-icon.png" />
+    <Content Include="Themes\DefaultClean\Content\images\motto-cricketscholar-color.png" />
+    <Content Include="Themes\DefaultClean\Content\images\motto-cricketscholar-high.png" />
+    <Content Include="Themes\DefaultClean\Content\images\motto-cricketscholar.png" />
     <Content Include="Themes\DefaultClean\Content\images\move.png" />
     <Content Include="Themes\DefaultClean\Content\images\new.png" />
     <Content Include="Themes\DefaultClean\Content\images\next.png" />
