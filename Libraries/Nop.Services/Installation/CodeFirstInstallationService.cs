@@ -4546,7 +4546,7 @@ namespace Nop.Services.Installation
                 {
                     PageTitleSeparator = ". ",
                     PageTitleSeoAdjustment = PageTitleSeoAdjustment.PagenameAfterStorename,
-                    DefaultTitle = "CricMed",
+                    DefaultTitle = "CricketScholar",
                     DefaultMetaKeywords = "",
                     DefaultMetaDescription = "",
                     GenerateProductMetaDescription = true,
