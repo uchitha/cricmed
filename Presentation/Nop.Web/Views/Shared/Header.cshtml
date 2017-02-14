@@ -28,17 +28,16 @@
         </div>
     </div>
     <div class="header-lower">
-        <div class="header-logo" style="width: 70%">
+        <div class="header-logo" style="width: 20%">
             <a href="@Url.RouteUrl("HomePage")">
                 <img title="" alt="@storeName" src="@Url.Content(logoPath)">
             </a>
-            <a style="padding-left: 20px" href="#">
+        </div>
+        <div class="header-motto" style="">
+            <a style="" href="#">
                 <img title="" alt="Science & Medicine of Cricket" src="@Url.Content(mottoPath)" style="margin-bottom:20px">
             </a>
         </div>
-        @*<div style="padding-top: 65px;font-family: papyrus;font-weight: 800;color: navy;font-size: 16px;margin-left:-30px;">
-            The Science and Medicine of Cricket
-        </div>*@
         <div class="search-box store-search-box">
             @Html.Action("SearchBox", "Catalog")
         </div>

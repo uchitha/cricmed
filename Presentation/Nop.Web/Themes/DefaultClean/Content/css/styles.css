@@ -773,21 +773,24 @@ label, label + * {
 	clear: both;
 }
 .search-box input.search-box-text {
-	float: left;
+	/*float: left;*/
 	width: 200px;
 	height: 30px;
 	margin: 0 -1px 0 0;
 }
 .search-box .search-box-button {
-	float: left;
+	/*float: left;*/
 	min-width: 30px;
 	height: 30px;
 	border: none;
 	background-color: #4ab2f1;
-	padding: 0 15px;
+	padding: 15px;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
+	height: 30px;
+    vertical-align: middle;
+    margin-left:-3px;
 }
 .search-box .search-box-button:hover {
 	background-color: #248ece;
@@ -5011,13 +5014,19 @@ pre {
     margin: 10px auto;
 }
 .search-box input.search-box-text {
-	width: 240px;
+	/*width: 240px;*/
+    width: 85%;
 }
 .ui-autocomplete {
 	width: 240px !important;
 }
 .ui-autocomplete img {
 	display: inline;
+}
+
+.search-box input.search-box-text,
+.search-box .search-box-button {
+	float:inherit;
 }
 
 
@@ -5176,6 +5185,9 @@ pre {
 	width: 20%;
 }
 
+.header-motto{
+    width:100%;
+}
 
 /*** FOOTER ***/
 
@@ -5199,7 +5211,7 @@ pre {
 	padding: 0;
 }
 .footer-block .list li {
-	padding: 5px 0;
+	padding: 1px 0;
 }
 .footer-block .list a {
 	display: inline;
@@ -5819,6 +5831,10 @@ pre {
 	padding: 0 18px;
 }
 
+.header-motto{
+    width:55%;
+}
+
 .flyout-cart {
 	position: absolute;
 	top: 45px;
@@ -5931,7 +5947,7 @@ pre {
 }
 .header-motto {
 	display: table-cell;
-	text-align: left;
+	text-align: center;
 	vertical-align: middle;
 	font-size: 0;
 }
@@ -5943,6 +5959,7 @@ pre {
 .search-box input.search-box-text,
 .search-box .search-box-button {
 	height: 30px;
+    float:inherit;
 }
 
 
