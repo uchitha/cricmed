@@ -764,6 +764,22 @@ label, label + * {
 	opacity: 1;
 }
 
+.header-motto{
+	text-align: center;
+    display: inline-block;
+    width:100%;
+}
+
+.header-motto a {
+	display: inline-block;
+	max-width: 100%;
+	line-height: 0; /*firefox line-height bug fix*/
+}
+.header-motto a img {
+	max-width: 100%;
+	opacity: 1;
+}
+
 .search-box form {
 	display: inline-block;
 }
@@ -5185,9 +5201,6 @@ pre {
 	width: 20%;
 }
 
-.header-motto{
-    width:100%;
-}
 
 /*** FOOTER ***/
 
