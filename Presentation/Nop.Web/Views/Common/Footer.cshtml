@@ -26,15 +26,12 @@
         <div class="footer-block customer-service">
             <div class="title">
                 @*<strong>@T("Footer.CustomerService")</strong>*@
-                <strong>Knowledge Hub</strong>
+                <strong>Research</strong>
             </div>
             <ul class="list">
-                <li><a href="#">Performance</a> </li>
-                <li><a href="#">Biomechanics</a> </li>
-                <li><a href="#">Coaching</a> </li>
-                <li><a href="#">Nutrition</a> </li>
-                <li><a href="#">Injuries</a> </li>
-                <li><a href="#">InjuryPrevention</a> </li>
+                <li><a href="#">Research Area</a> </li>
+                <li><a href="#">Published Country</a> </li>
+                <li><a href="#">Publication Date</a> </li>
 
                 @*<li><a href="@Url.RouteUrl("ProductSearch")">@T("Search")</a> </li>
                 @if (Model.NewsEnabled)
@@ -67,9 +64,9 @@
                 }*@
             </ul>
         </div>
-        <div class="footer-block my-account">
+        @*<div class="footer-block my-account">
             <div class="title">
-                @*<strong>@T("Footer.MyAccount")</strong>*@
+                @*<strong>@T("Footer.MyAccount")</strong>//
                 <strong>Research</strong>
             </div>
             <ul class="list">
@@ -101,15 +98,15 @@
                 @foreach (var topic in Model.Topics.Where(x => x.IncludeInFooterColumn3).ToList())
                 {
                     <li><a href="@Url.RouteUrl("Topic", new { SeName = topic.SeName })">@topic.Name</a></li>
-                }*@
+                }//
             </ul>
-        </div>
-        <div class="footer-block follow-us">
+        </div>*@
+        @*<div class="footer-block follow-us">
             <div class="title">
-                @*<strong>@T("Footer.MyAccount")</strong>*@
+                @*<strong>@T("Footer.MyAccount")</strong>
                 <strong>Resource</strong>
             </div>
-        </div>
+        </div>*@
         @*<div class="footer-block follow-us">
             <div class="title">
                 @*<strong>@T("Footer.MyAccount")</strong>

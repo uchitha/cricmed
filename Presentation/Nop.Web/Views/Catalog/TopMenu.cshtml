@@ -42,6 +42,7 @@
     @{
         var rootCategories = Model.Categories.Where(x => x.IncludeInTopMenu).ToList();
     }
+    <li><a href="@Url.RouteUrl("HomePage")">Home</a></li>
     @foreach (var category in rootCategories)
     {
         @RenderCategoryLine(category, 0, false)
